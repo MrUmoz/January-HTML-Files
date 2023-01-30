@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+    <script>
+        function setcolor()
+    </script>
+</head>
+<body>
+    <h1> LISTAAC SCHOOL OF TECHNOLOGY</h1>
+    <fieldset>
+        <legend> School Login</legend>
+            <section id="section1">
+                <form>
+                    <label for="Fname"> First Name</label><br>
+                    <input type="text" id="Fname" name="Fname"><br>
+                    <label for="Lname"> Last Name</label><br>
+                    <input type="text" id="Lname" name="Lname"><br><br>
+                    <p> My Best Arsenal Player</p>
+                    <input type="radio" id="VanP" name="BAP" value="van persie">
+                    <label for="VanP"> Van Persie</label><br>
+                    <input type="radio" id="Thenry" name="BAP" value="thierry henry">
+                    <label for="Thenry"> Thierry Henry</label> <br>
+                    <input type="radio" id="Fab" name="BAP" value="cesc fabrigas">
+                    <label for="Fab">Cesc Fabrigas </label><br>
+                    <p> Choose your Best time off the year</p><br>
+                    <label for="date"> Date</label>
+                    <input type="date">
+                    <br><br>
+                </form>
+            </section>
+            <section id="section2">
+                <form id="form" action="form1.html" method="get">
+                    <hr>
+                    <input type="search" placeholder="search" value="search"><br>
+                    
+                    <label for="ride"> Corolla</label>
+                    <input type="checkbox" id="ride" name="MBR" value="car"><br>
+                    <label for="ride2"> Camry</label>
+                    <input type="checkbox" id="ride2" name="MBR" value="Motor"><br>
+                    <label for="ride3" > Yaris</label>
+                    <input type="checkbox" id="ride3" name="MBR" value="Motor2"><br>
+                    <input type="text" name="Fname" placeholder="Your Firstname" autofocus><br>
+                    <input type="text" name="Lname" placeholder="Your Lastname" required><br><br>
+                    <label for="picture">Picture</label><br>
+                    <input type="file" id="picture" name="picture"><br>
+                    <textarea name="" id="" placeholder="Comment" cols="25"></textarea><br>
+                    <input type="submit" value="submit" formtarget="_blank">
+                    <input type="submit" value="submit with post" formmethod="post">
+                </form>
+            </section>    
+
+    </fieldset>
+    <a href="index.html">Home</a>
+</body>
+</html>

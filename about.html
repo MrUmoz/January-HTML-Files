@@ -12,20 +12,34 @@
         table{
             border-collapse: collapse;
             background-color: rgba(255, 251, 246, 0.884);
+            width: 70%;
+            height: 90%;
         }
-        #caption{
+        ._caption{
             text-align:center;
             padding:30px;
             font-size: 120%;
-            font-weight: 100;
+            font-weight: bold;
             border: 4px solid black;
             border-bottom: none;
         }
+        th{
+            background-color: rgb(184, 184, 184);
+            padding: 5px;
+    
+        }
+        td{
+            padding: 10px;
+        }
+        ._day{
+            font-weight: bold;
+        }
+        
     </style>
 </head>
 <body>
     <table>
-        <caption id="caption"> NEW TIMETABLE</caption>
+        <caption class="_caption"> NEW TIMETABLE</caption>
         <tr>
             <th>TIME</th>
             <th>MONDAY</th>
@@ -86,5 +100,70 @@
             <td> Project</td>
         </tr>
     </table>
+    <p> Our Tutor said we should do another Timetable because we did the first one in a not too good fashion</p>
+    <table>
+        <caption class="_caption"> Main Time Table </caption>
+        <tr>
+            <th>Day/Time</th>
+            <th>8:00 - 9:10 AM</th>
+            <th>9:10 - 10:40 AM</th>
+            <th>10:40 - 11:30 PM</th>
+            <th>11:30 - 12:00 PM</th>
+            <th>12:00 - 1:30 PM</th>
+            </tr>
+        <tr>
+            <td class="_day">MONDAY</td>
+            <td rowspan="2"> Java 101</td>
+            <td> Html </td>
+            <td>Intro SC 102</td>
+            <td> GEST 109 </td>
+            <td> System MGT</td>
+        </tr>
+        <tr>
+            <td class="_day">TUESDAY</td>
+            <td>Cybernatics 105</td>
+            <td> Info Tech 201</td>
+            <td> Animation 108</td>
+            <td> Js Anglar</td>
+        </tr>
+        <tr>
+            <td class="_day">WEDNESDAY</td>
+            <td> Web Dev 105</td>
+            <td> CSS3</td>
+            <td> Tech Start Up</td>
+            <td> Green Energy</td>
+            <td> HRD 107</td>
+        </tr>
+        <tr>
+            <td class="_day">THURSDAY</td>
+            <td>LInux OS</td>
+            <td> Sys Engineering </td>
+            <td colspan="2"> Criminology</td>
+            <td>ICT MGT</td>
+            
+        </tr>
+        <tr>
+            <td class="_day">FRIDAY</td>
+            <td> Video Editing</td>
+            <td>javaScript</td>
+            <td>Break</td>
+            <td>JQuery</td>
+            <td>Python 103</td>
+        </tr>
+
+    </table>
+    <iframe src="index.html"></iframe>
+    <form>
+        <label for="username"> username</label>
+        <input type="text"> <br>
+        <label for="password"> password</label>
+        <input type="password"> <br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <label type="course"> Courses</label><br>
+        <input type="checkbox" name="JS" value="JS"> JS
+    </form>
+    <a href="index.html">Home</a>
 </body>
 </html>
