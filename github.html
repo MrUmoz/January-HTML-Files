@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Page</title>
+    <link rel="stylesheet" href="cssgit/github.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+</head>
+<body id="container">
+    <div>
+        <section id="hero-spot">
+            <a href="www.github.com" class="giti"> GitHub Pages </a>
+                <h1>Websites for you and your projects. </h1>
+                <h2>Hosted directly from your <a href="www.github.com">GitHub repository.</a> Just edit, push, and your changes are live.</h2>
+                <a href="www.github/help pages" class="help_"> Help Pages</a> 
+            <div id="slide">
+                <img class="slide" src="cssgit/ghtraining1.png" alt="" width="893">
+                <!-- <img class="slide" src="cssgit/git.png" alt="" width="893"> -->
+                <!-- <img class="slide" src="cssgit/jekyllrb.png" alt="" width="893"> -->
+                <!-- <img class="slide" src="cssgit/microsoft.png" alt="" width="893"> -->
+                <!-- <img class="slide" src="cssgit/semanticui.png" alt="" width="893"> -->
+            </div>
+    </section>
+    </div>
+    <section id="video" class="video">
+        <h1>What is GitHub Pages?</h1>
+        <div class="iframe_">
+        <iframe src="https://www.youtube-nocookie.com/embed/2MsN8gpT6jY?showinfo=0" allowfullscreen="" width="853" height="480" frameborder="0"> </iframe>
+        </div>
+    </section>
+    <section id="tutorial" class="tutorial">
+        <h1>Ready to get started? Build your own site from scratch or generate one for your project.</h1>
+        <h2>You get one site per GitHub account and organization,<br>
+            and unlimited project sites. Let‘s get started.</h2>
+        <ul class="tabs">
+            <li>
+                <a class="selected" href=""> User or orginization site</a>
+            </li>
+            <li>
+                <a href="project-site">project Site</a>
+            </li>
+        </ul>    
+    </section>
+    <ul id="user-site" class="tutorial-list wrapper active">
+        <li class="ist-tab">
+            <div class="no1">1</div>
+            <h4>Create a repository</h4>
+            <p>
+                Head over to <a href="www.github.com"> GitHub</a>
+                and <a> create a new public repository</a> named
+                <em>username</em> .github.io, where
+                <em>username</em>
+                is your username (orginization name) on github.              
+            </p>
+            <p class="details">If the first part of the repository doesn’t exactly match your username,
+                 it won’t work, so make sure to get it right.</p>
+        </li>
+        <li class="snd-tab">
+            <div class="no11">?</div>
+            <h4>What git client are you using?</h4>
+            <ul class="snd-tab1">
+                <li><a class="selected1" href="">A terminal</a></li>
+                <li><a class="" href=""> GitHub Desktop</a></li>
+                <li><a class="selected2" href="">I don't know</a></li>
+            </ul>
+        </li>
+        <li id="clone_">
+            <div class="no2">2</div>
+            <h4>Clone the repository</h4>
+                <p>Go to the folder where you want to store your project, and clone the new repsitory:</p>
+                <div class="terminal">
+                    <div class="header"></div>
+                    <div class="shell">
+                        <p>
+                            <span class="path">~</span>
+                            <span class="prompt">$</span>
+                            "git clone https://github.com"
+                            <em>username</em>
+                            "/"
+                            <em>username</em>
+                            ".github.io"
+                        </p>
+                    </div>
+                </div>
+        </li>
+        <li id="Hello_">
+                <div class="no3">3</div>
+            <h4> Hello World</h4>
+            <P>Enter the project folder and add an index.html file</P>
+            <div class="terminal">
+                <div class="header"></div>
+                <div class="shell">
+                    <p>
+                        <span class="path">~</span>
+                        <span class="prompt">$</span>
+                        "cd"
+                        <em>username</em>
+                        ".github.io"
+                    </p>
+                    <p>
+                        <span class="path">~</span>
+                        <span class="prompt">$</span>
+                        ""Hello World" > index.html"
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li id="push_">
+            <div class="no4">4</div>
+            <h4> Push It</h4>
+               <p>Add, commit, and push your changes:</p>
+            <div class="terminal">
+                <div class="header"></div>
+                <div class="shell">
+                    <p>
+                    <span class="path">~</span>
+                    <span class="prompt">$</span>
+                    "git add --all"
+                </p>
+                <p>
+                    <span class="path">~</span>
+                    <span class="prompt">$</span>
+                    "git commit -m "Initial commit""
+                </p>
+                <p>
+                    <span class="path">~</span>
+                    <span class="prompt">$</span>
+                    "git push -u origin main"
+                </p>
+                </div>
+            </div>
+        </li>
+        <li id="done_">
+            <div class="no5"> 5</div>
+            <h4> ...and you're done!</h4>
+            <p>Fire up a browser and go to <strong> http://<em>username</em> .github.io
+            <em>repository</em></strong>.</p>
+            <div>
+                <a class="hero-octicon">
+                    <span class="mega-octicon octicon-good">
+                        <iconify-icon icon="grommet-icons:status-good" width="100" height="100"></iconify-icon>
+                    </span>
+                </a>
+            </div>
+        </li>
+    </ul>
+    <section id="next-steps" class="next-steps">
+        <h1> Now that you're up and running, here are a few things you should know.</h1>
+        <ul id="next-steps wrapper">
+            <li class="jekyll"><a class="hero-octicon" href="https://help.github.com/articles/using-jekyll-with-pages">
+                <span class="mega-octicon octicon-pencil"><iconify-icon icon="mdi:lead-pencil" width="100" height="100"></iconify-icon></span> 
+                </a>
+            <h4><a href="https://help.github.com/articles/using-jekyll-with-pages">Blogging with Jekyll</a></h4>
+            <p>Using <a href="https://jekyllrb.com">Jekyll</a>, you can blog using beautiful Markdown syntax, and without having to deal with any databases. 
+                <a href="https://jekyllrb.com/docs/">Learn how to set up Jekyll</a>.</p>
+          </li>
+            </li>
+            <li class="custom-urls"><a class="hero-octicon" href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">
+                <span class="mega-octicon octicon-link"><iconify-icon icon="mdi:link-variant" width="100" height="100"></iconify-icon></span>
+                </a>
+                
+                <h4><a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">Custom URLs</a></h4>
+                <p>Want to use your own custom domain for a GitHub Pages site? Just create a file named CNAME  and include your URL. <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">Read more</a>.</p>
+           </li>
+            <li>
+                <a class="hero-octicon" href="https://help.github.com/categories/20/articles">
+                    <span class="mega-octicon octicon-book"></span>
+                        <iconify-icon icon="material-symbols:menu-book-outline-rounded" width="100" height="100"></iconify-icon>
+                </a> 
+                <h4><a href="https://help.github.com/categories/20/articles">Guides</a></h4>
+                <p>Learn how to create custom 404 pages, use submodules, and 
+                    <a href="https://help.github.com/categories/20/articles">learn more about GitHub Pages</a>.
+                </p>
+      
+            </li>
+        </ul>
+    </section>
+    <footer class="page-footer">
+        <ul class="site-footer-links-right">
+          <li><a href="https://www.githubstatus.com/">Status</a></li>
+          <li><a href="https://docs.github.com/rest">API</a></li>
+          <li><a href="https://training.github.com">Training</a></li>
+          <li><a href="https://shop.github.com">Shop</a></li>
+          <li><a href="https://github.blog">Blog</a></li>
+          <li><a href="https://github.com/about">About</a></li>
+        </ul>
+      
+        <a href="/">
+          <span class="mega-octicon-mark-github"><iconify-icon icon="bi:github" width="24" height="24"></iconify-icon></span>
+        </a>
+      
+        <ul class="site-footer-links">
+          <li>&copy; 2022 <span>GitHub</span>, Inc.</li>
+          <li><a href="https://docs.github.com/en/github/site-policy/github-terms-of-service">Terms</a></li>
+          <li><a href="https://docs.github.com/en/github/site-policy/github-privacy-statement">Privacy</a></li>
+          <li><a href="https://github.com/security">Security</a></li>
+          <li><a href="https://support.github.com">Contact</a></li>
+        </ul>
+      </footer>
+</body>
+</html>

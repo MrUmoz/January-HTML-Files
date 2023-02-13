@@ -1,0 +1,427 @@
+.giti{
+    text-align: center;
+    position: relative;
+    top: 26px;
+    left: 477px;
+    font-size: 50px;
+    color: white;
+
+}
+.help_{
+    position: relative;
+    top: -300px;
+    bottom: auto;
+    left: 1248px;
+    background-color: #3e3c3c;
+    color: white;
+    padding: 10px;
+    border: 4px black solid;
+    border-radius: 11px;
+}
+
+.iframe_{
+    width: 853px;
+    margin: auto;
+    
+}
+#hero-spot {
+    position: relative;
+    padding: 40px 0px 0px;
+    overflow: hidden;
+    background: rgb(34, 34, 34);
+}
+#hero-spot h1 {
+    color: rgb(255, 255, 255);
+    backface-visibility: hidden;
+    max-width: 830px;
+    margin-top: 50px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 60px;
+    text-align: center;
+    margin: 90px auto 0px;
+}
+#hero-spot h2 {
+    color: rgb(167, 167, 167);
+    backface-visibility: hidden;
+    line-height: 1.5em;
+    max-width: none;
+    font-size: 18px;
+    margin: 10px auto 60px;
+}
+h2 {
+    text-align: center;
+    font-weight: 200;
+}
+#tutorial {
+    padding-bottom: 20px;
+}
+#tutorial {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    overflow: hidden;
+}
+.tabs {
+    display: inline-block;
+    font-size: 0px;
+    margin: 45px auto 0px;
+}
+.tabs li:first-child a {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.tabs a.selected {
+    z-index: 20;
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 127, 199);
+    border-color: rgb(50, 127, 199);
+    outline: none;
+}
+.tabs li {
+    display: inline-block;
+    font-size: 15px;
+    margin: 0px;
+}
+.tabs a {
+    color: rgb(50, 50, 50);
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    position: relative;
+    line-height: 1em;
+    padding: 10px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+    border-image: initial;
+    transition: all 0.2s ease-in-out 0s;
+}
+.tabs li:last-child a {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#container{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.4;
+    font-size: 14px;
+    margin: auto;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    display: block;
+    width: 1350px;
+}
+a{
+    text-decoration: none;
+
+}
+
+ol, ul {
+    list-style: none;
+}
+/* footer styles */
+footer {
+    position: relative;
+    display: inline;
+    vertical-align: baseline;
+    font-size: 12px;
+    line-height: 1.5;
+    color: rgb(119, 119, 119);
+    clear: both;
+    width: 700px;
+    padding: 40px 0px;
+    margin: 70px auto ;
+    border-top: 1px solid rgb(238, 238, 238)
+}
+.site-footer-links-right li{
+    vertical-align: baseline;
+    margin: 0px;
+    padding: 10px;
+    border-width: 0px;
+    outline: 0px;
+    display: inline-block;
+    position: relative;
+}
+.site-footer-links-right{
+    position: relative;
+    top: 49px;
+    left: 920px;
+    margin-right: 934px;
+}
+.site-footer-links li {
+    display: inline-block;
+    padding: 10px;   
+}
+.site-footer-links{
+    position: relative;
+    left: -25px;
+   
+}
+.mega-octicon-mark-github{
+    position: relative;
+    top: 7px;
+    left: 635px;
+    color: gray;
+}
+/* Footer style ends here */
+/* terminal */
+
+.header{
+    height: 25px;
+    display: block;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 25px;
+    text-shadow: rgba(255, 255, 255, 0.6) 0px 1px 0px;
+    color: rgb(68, 68, 68);
+    background: -webkit-linear-gradient(top, rgb(247, 247, 247) 0%, rgb(207, 207, 207) 5%, rgb(170, 170, 170) 100%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(156, 156, 156) rgb(156, 156, 156) rgb(17, 17, 17);
+    border-image: initial;
+}
+.shell {
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgb(238, 235, 130);
+    background-color: rgb(61, 61, 61);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-align: left;
+    display: block;
+    overflow: hidden;
+    padding: 20px;
+    margin: 0px;
+}
+/* body style */
+#user-site{
+    background-color: rgb(233, 232, 232);
+    
+}
+.ist-tab{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border: 1px solid rgb(207, 206, 206);
+    margin: 50px;
+    background-image: url("../cssgit/user-repo@2x.png");
+    background-repeat: no-repeat;
+    background-size: 550px;
+    background-position-x: 690px;
+}
+.ist-tab p{
+    text-align: justify;
+    background-image: url(/cssgit/user-repo@2x.png);
+    margin-right: 650px;
+}
+.ist-tab h4{
+    margin-right: 650px;
+}
+.snd-tab{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    padding-top: 10px;
+    border: 1px solid rgb(207, 206, 206);
+    margin: 50px;
+    
+}
+.snd-tab1 li {
+    display: inline-block;
+    font-size: 15px;
+      
+}
+.snd-tab1 .selected1{
+    z-index: 20;
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 127, 199);
+    border-color: rgb(50, 127, 199);
+    outline: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.snd-tab1 .selected2{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.snd-tab1 a { 
+    padding: 10px;
+    border: 1px solid gray;
+    margin: -2px;
+    color: black;
+    
+}
+#clone_{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-bottom: 50px;
+    border: 1px solid rgb(207, 206, 206);
+    margin: 50px;
+
+}
+.terminal{
+    width: 600px;
+    margin: 30px auto 0px;  
+      
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+}
+.path{
+    color: rgb(63, 201, 155);
+}
+.prompt{
+    color: rgb(173, 38, 38);
+}
+#Hello_{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-bottom: 50px;
+    border: 1px solid rgb(207, 206, 206);
+    margin: 50px;
+}
+#push_{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-bottom: 50px;
+    border: 1px solid rgb(207, 206, 206);
+    margin: 50px;
+}
+#done_{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-bottom: 50px;
+    border: 1px solid rgb(207, 206, 206);
+    margin: 50px;
+}
+#next-steps{
+    margin-top: 30px;
+    border: 1px solid black;
+    width: 1100px;
+    margin: auto;
+    /* padding: 60px 999px 40px; */
+}
+.next-steps li{
+    display: table-cell;
+    text-align: center;
+    
+}
+/* small circles */
+ul li .no1
+{
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    background-color: #327fc7;
+    border-radius: 200px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    position: relative;
+    left: -58px;
+    top: -61px;
+   }
+ul li .no11{
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    background-color: #327fc7;
+    border-radius: 200px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    position: relative;
+    left: -70px;
+    top: -46px;
+}   
+ul li .no2{
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    background-color: #327fc7;
+    border-radius: 200px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    position: relative;
+    left: -46px;
+    top: -46px;
+} 
+ul li .no3{
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    background-color: #327fc7;
+    border-radius: 200px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    position: relative;
+    left: -41px;
+    top: -46px;
+} 
+ul li .no4{
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    background-color: #327fc7;
+    border-radius: 200px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    position: relative;
+    left: -46px;
+    top: -44px;
+} 
+ul li .no5{
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    background-color: #327fc7;
+    border-radius: 200px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    position: relative;
+    left: -46px;
+    top: -54px;
+} 
+/* small circle end */
+body #slide {
+    margin-left: auto;
+    margin-right: auto;
+       
+    
+}
+
+.hero-octicon
+{
+    font-family: octicons;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+    border: solid 1px #e5e5e5;
+    margin: 0 auto 15px;
+    display: block;
+    text-align: center;
+    font-family: octicons;
+    color: #4183c4;
+}
+#slide{
+    width: 893px;
+    margin: auto;
+    
+}
