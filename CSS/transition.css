@@ -1,0 +1,69 @@
+.container{
+    display: grid;
+    background-color: seagreen;
+    gap: 10px;
+    padding: 10px;
+}
+.grid_{
+    background-color: rgb(172, 255, 172);
+    text-align: center;
+    padding: 20px;
+
+}
+.item1{
+    grid-column: 1/ span 3;
+    grid-row: 1;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+       
+}
+.item1 a{
+    padding:1px 20px 1px 20px;
+    border: 1px rgb(124, 124, 124) solid;
+    border-radius: 5px;
+}
+.item2{
+    grid-column: 1;
+    grid-row: 2 /span 2;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;font-size: 20px;
+    
+}
+.item2 a{
+    background-color: rgb(141, 211, 141);
+    padding: 20px;
+    margin: 1.2px;
+    transition:background-color 2s;
+
+}
+.item2 a:hover{
+    background-color: rgb(53, 252, 103);
+}
+.item3{
+    grid-column: 2 ;
+    grid-row: 2 /span 2;;
+}
+.item4{
+    grid-column: 3;
+    grid-row: 2 /span 2;
+}
+.item5{
+    grid-column: 1 /span 3;
+    grid-row: 4 ;
+}
+.contan{
+    display: none;
+    
+}
+.contan a{
+    display: block;
+    background-color: azure;
+    padding: 10px;
+    
+}
+._contan:hover .contan{
+    display: block;
+    position: absolute;
+}
